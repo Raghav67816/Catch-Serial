@@ -77,7 +77,7 @@ python3 main.py  # Linux/Ubuntu
 
 ## Support
 
-For support, email innovationinfinite8@fake.com or report on GitHub
+For support, email innovationinfinite8@gmail.com or report on GitHub
 
 
 ## Authors
