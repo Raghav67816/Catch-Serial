@@ -1,0 +1,142 @@
+/* Setup fonts */
+/* First is Poppins for heading */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+QLineEdit{
+    border: 2px solid rgb(0, 110, 255);
+    padding: 5px;
+    color: white;
+    background-color: rgb(75, 75, 75);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+QRadioButton {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+}
+
+QRadioButton::indicator {
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgb(0, 110, 255);
+    border-radius: 8px;
+    padding: 2px; /* Added spacing */
+
+}
+
+QRadioButton::indicator:checked {
+    background-color: rgb(0, 110, 255);
+}
+
+QRadioButton::indicator:checked:disabled {
+    background-color: rgba(0, 110, 255, 50);
+}
+
+QRadioButton::indicator:disabled {
+    border-color: rgba(0, 110, 255, 50);
+}
+
+
+QComboBox{
+    background-color: rgb(75, 75, 75);
+    border: 1px solid rgb(0, 110, 255);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+QComboBox::drop-down {
+    background-color: rgb(75, 75, 75);
+    color: white;
+}
+
+
+QTextEdit{
+    border: 2px solid rgb(0, 110, 255);
+    color: white;
+    background-color: rgb(75, 75, 75);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+QLabel{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+QMenuBar{
+    background-color: rgb(75, 75, 75);
+    color: white;
+}
+
+QToolButton{
+    padding: 5px;
+    border: 1px solid rgb(0, 110, 255);
+    border-radius: 5px; 
+    background-color: rgb(1, 141, 196);
+    color: white;
+}
+
+QMenuBar::item{
+    font-family: 'Poppins', sans-serif;
+}
+
+QMenuBar::item::selected{
+    background-color: rgba(100, 100, 100, 150);
+}
+
+QMenu{
+    background: "#262625";
+}
+
+QMenu::item{
+    font-size: 12px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+}
+
+QMenu::item:selected {
+    background: rgba(100, 100, 100, 150);
+}
+
+/* 
+background of window
+*/
+QMainWindow{
+    background-color: "#1b1b1c";
+}
+
+QDialog{
+    background-color: "#1b1b1c";
+}
+
+QPushButton{
+    background-color: rgb(1, 141, 196);
+    color:white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+/* QFrame - recentProjects */
+#recentProjects{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: "#282829";
+}
+
+#recentProjectLabel{
+    color: "#747475";
+}
+
+QTextBrowser{
+    border: 2px solid rgb(0, 163, 0);
+    border-radius: 5px;
+    background-color: black;
+    color: rgb(0, 163, 0);
+}
