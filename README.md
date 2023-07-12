@@ -2,7 +2,8 @@
 # Catch Serial
 
 
-![Logo]([https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png](https://github.com/Raghav67816/Catch-Serial/blob/main/interface/icons/github%20banner%20img.png))
+
+![github banner img](https://github.com/Raghav67816/Catch-Serial/assets/73534350/a4e249ab-8b24-40c2-b8e4-65c178815ab8)
 
 
 
@@ -70,7 +71,8 @@ python3 main.py  # Linux/Ubuntu
 
 ## Screenshots
 
-![App Screenshot]([https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://github.com/Raghav67816/Catch-Serial/blob/main/interface/icons/Screenshot.png))
+
+![CS](https://github.com/Raghav67816/Catch-Serial/assets/73534350/1d411c98-665d-4ccc-afba-b4f42cd4b351)
 
 
 ## Support
