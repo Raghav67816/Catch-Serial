@@ -7,11 +7,9 @@
 
 
 
-**Documentation** - [Documentation for developers](https://example.com)
 
 **Source Code** - [GitHub](https://github.com/Raghav67816/Catch-Serial)
 
-****Note - This application is currently under heavy development some features may not work.****
 
 
 The application you're looking for is a data acquisition tool designed to read serial data from a device and store it in a CSV (Comma-Separated Values) file format. This functionality is particularly useful for capturing data from various sensors or devices connected via serial communication protocols.
