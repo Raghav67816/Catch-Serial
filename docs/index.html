@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        /* Background and Body Styling */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+            overflow: hidden;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: radial-gradient(circle, #1b2735, #090a0f);
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 500px;
+            padding: 2em;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Heading */
+        h1 {
+            font-size: 3em;
+            margin: 0.2em 0;
+            color: #ffdd57;
+            text-shadow: 0 0 20px rgba(255, 221, 87, 0.6);
+        }
+
+        /* Subtitle */
+        p {
+            font-size: 1.2em;
+            color: #ccc;
+            margin-bottom: 2em;
+        }
+
+        /* Countdown Styling */
+        .countdown {
+            display: flex;
+            justify-content: space-around;
+            font-size: 1.2em;
+            margin-top: 1em;
+        }
+
+        .countdown div {
+            flex: 1;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #ffdd57;
+            text-shadow: 0 0 10px rgba(255, 221, 87, 0.8);
+        }
+
+        .countdown div span {
+            display: block;
+            font-size: 3em;
+            margin-bottom: 0.2em;
+            opacity: 0.7;
+        }
+
+        /* Floating Star Background Animation */
+        .star {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: white;
+            opacity: 0.8;
+            animation: floatStars 10s linear infinite;
+        }
+
+        /* Keyframes */
+        @keyframes floatStars {
+            0% { transform: translateY(0px); opacity: 0.8; }
+            100% { transform: translateY(-100vh); opacity: 0; }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Coming Soon</h1>
+        <p>We're working hard to bring you something amazing! Stay tuned.</p>
+
+        <!-- Countdown Slots with Mathematical Symbols Above -->
+        <div class="countdown">
+            <div><span>∑</span> Days</div>
+            <div><span>π</span> Hours</div>
+            <div><span>φ</span> Minutes</div>
+            <div><span>∞</span> Seconds</div>
+        </div>
+    </div>
+
+    <!-- Floating Stars Animation -->
+    <script>
+        // Create floating stars background
+        for (let i = 0; i < 100; i++) {
+            let star = document.createElement('div');
+            star.className = 'star';
+            star.style.left = `${Math.random() * 100}vw`;
+            star.style.animationDuration = `${Math.random() * 10 + 5}s`;
+            star.style.top = `${Math.random() * 100}vh`;
+            document.body.appendChild(star);
+        }
+    </script>
+
+</body>
+</html>
