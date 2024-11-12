@@ -70,7 +70,7 @@ python3 main.py  # Linux/Ubuntu
 ## Screenshots
 
 
-![CS](https://github.com/Raghav67816/Catch-Serial/assets/73534350/1d411c98-665d-4ccc-afba-b4f42cd4b351)
+![CS](https://raw.githubusercontent.com/Raghav67816/Catch-Serial/refs/heads/main/screenshot.png)
 
 
 ## Support
